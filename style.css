@@ -1,0 +1,183 @@
+body {
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+.hero-section,
+.nav,
+.body-section,
+.info-section {
+  padding: 0 120px;
+}
+.nav {
+  display: flex;
+  justify-content: space-between;
+  background-color: #fff;
+  margin: 20px 0;
+  align-items: center;
+}
+.logo {
+  width: 70px;
+  height: 30px;
+}
+.cta {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+.cta p {
+  font-size: 12px;
+}
+.horizontal-line {
+  height: 1px;
+  width: 50px;
+  background-color: #fff;
+}
+.horizontal-linee {
+  height: 1px;
+  width: 50px;
+  background-color: #000;
+}
+
+.hero-section {
+  /* padding: 30px 0; */
+  background-color: hsl(256, 26%, 20%);
+  position: relative;
+}
+.hero-section .imgg {
+  width: 250px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 10;
+}
+.hero-section .imggg {
+  width: 100px;
+  position: absolute;
+  top: 300px;
+  left: 0;
+  z-index: 10;
+}
+.paragraphs {
+  color: #fff;
+  padding: 40px 0;
+}
+.paragraphs h1 {
+  font-size: 40px;
+}
+.paragraphs P {
+  font-size: 16px;
+  line-height: 1.6;
+}
+button {
+  font-size: 12px;
+  padding: 10px 20px;
+  background-color: #fff;
+  border: 1px solid #000;
+}
+.hero-sections {
+  height: 70vh;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.image img {
+  width: 400px;
+}
+.btn {
+  background-color: hsl(256, 26%, 20%);
+  border: 1px solid #fff;
+  color: #fff;
+}
+.body-section {
+  margin: 150px 0;
+}
+.body-section h1 {
+  font-size: 48px;
+}
+.attributes {
+  display: flex;
+  gap: 40px;
+}
+.attribute img {
+  width: 50px;
+}
+.attribute p {
+  font-size: 14px;
+  color: hsl(216, 30%, 68%);
+}
+.infos {
+  overflow: hidden;
+  position: relative;
+  background-color: hsl(256, 26%, 20%);
+  padding: 20px 120px;
+}
+.infos img {
+  width: 250px;
+  position: absolute;
+  top: -50px;
+  right: -50px;
+  z-index: 10;
+}
+.info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.info h1 {
+  font-size: 40px;
+  color: #fff;
+}
+.info button {
+  padding: 10px 20px;
+  background-color: hsl(256, 26%, 20%);
+  color: #fff;
+  border: 1px solid #fff;
+}
+.footer-section {
+  background-color: hsl(0, 0%, 98%);
+  padding: 40px 120px;
+  margin: 100px 0 0 0;
+  position: relative;
+}
+.im {
+  width: 250px;
+  position: absolute;
+  top: 0px;
+  left: -20px;
+  z-index: -20px;
+  /* transform: rotate(270deg); */
+}
+.footer-header {
+  display: flex;
+  justify-content: space-between;
+}
+.social img {
+  width: 20px;
+  margin-left: 10px;
+}
+.footer-info {
+  display: flex;
+  justify-content: space-between;
+}
+.first-info p,
+.second-info p,
+.third-info p,
+.fourth-info p {
+  font-weight: 800;
+  font-size: 14px;
+  color: hsl(273, 4%, 51%);
+  margin-bottom: 30px;
+}
+.first-info a,
+.second-info a,
+.third-info a,
+.fourth-info a {
+  display: block;
+  text-decoration: none;
+  color: #000;
+  font-size: 12px;
+  margin-top: 10px;
+}
+.footer-info {
+  margin-bottom: 50px;
+}
